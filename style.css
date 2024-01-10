@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-pattern-bottom.svg);
+    display: flex;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(229, 23%, 23%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    /* margin-top: 54px;
+    margin-bottom: -75px; */
+}
+
+.card-top img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 350px;
+}
+
+.picofamd img {
+    border: 5px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+    width: 150px;
+}
+
+h2 {
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.activity-tracker {
+    align-items: center;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+h2 span {
+    color: hsl(227, 10%, 46%);
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+h3 {
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+
+h4 {
+    display: block;
+    font-size: 18px;
+}
+
+h4 span {
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} 
